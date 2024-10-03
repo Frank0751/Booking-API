@@ -7,6 +7,6 @@ export const bookingRouter = Router()
 
 bookingRouter.get('/bookings', getAllBookings)
 bookingRouter.get('/bookings/:id', getOneBooking)
-bookingRouter.post('/bookings/:id', postAllBookings)
+bookingRouter.post('/bookings', postAllBookings)
 bookingRouter.patch('/bookings/:id', updateAllBookings)
 bookingRouter.delete('/bookings/:id', deleteAllBookings)
