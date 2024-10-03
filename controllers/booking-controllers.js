@@ -11,8 +11,6 @@ export const getAllBookings = async (req, res, next) => {
     }
 }
 
-
-
 export const getOneBooking = (req, res, next) => {
 
     res.status(200).json('This is one booking');
